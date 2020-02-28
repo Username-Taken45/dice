@@ -1,3 +1,4 @@
+# this is only a script version to test, not the module
 import random 
 
 i = int(input() )
