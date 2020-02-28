@@ -1,7 +1,7 @@
 # this is only a script version to test, not the module
 import random 
 
-i = int(input() )
+ToRoll = int(input() )
 r1 = 0
 r2 = 0
 r3 = 0
@@ -10,7 +10,7 @@ r5 = 0
 r6 = 0
 roll = 0
 
-while i > 0:
+while ToRoll > 0:
 
     roll = random.randint(1, 6)
     if roll == 1:
@@ -26,6 +26,6 @@ while i > 0:
     if roll == 6:
         r6 = r6 + 1
     print(r1, r2, r3, r4, r5, r6)
-    i = i -1
+    ToRoll = ToRoll -1
 
 print(r1, r2, r3, r4, r5, r6)
